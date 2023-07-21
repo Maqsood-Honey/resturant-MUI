@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "//resturant-MUI/precache-manifest.adb617d0fcf4aa2a579c540193f74e89.js"
+  "/resturant-MUI/precache-manifest.3f09e1910ec280385c6a3cfdc475cac0.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("//resturant-MUI/index.html", {
+workbox.routing.registerNavigationRoute("/resturant-MUI/index.html", {
   
   blacklist: [/^\/_/,/\/[^/]+\.[^/]+$/],
 });
